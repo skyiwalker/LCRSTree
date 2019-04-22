@@ -1,6 +1,6 @@
 # LCRSTree
 
-Left-Children Right-Sibling Representation of Tree
+Left-Children Right-Sibling(LCRS) Representation of Tree
 (MIT License)
 
 Example in the code
