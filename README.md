@@ -12,6 +12,7 @@ Example in the code
 
 **usage(example)**
 
+~~~
 int num_root = 1;
 Tree<int>* tree = new Tree<int>(num_root);		
 tree->Root()->AddChild(2);
@@ -26,7 +27,7 @@ tree->Root()->AddChild(3);
 Node<int>* node4 = tree->Root()->AddChild(4)->GetThisNode();
 tree->Root()->AddChild(5)->AddChild(7)->AddSibling(8)->AddSibling(9);
 tree->AddChild(node4, 6);
-
+~~~
 
 
 
