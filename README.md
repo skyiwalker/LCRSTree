@@ -5,7 +5,7 @@ Left-Children Right-Sibling Representation of Tree
 
 Example in the code
 
-![LCRS Tree](/images/LCRSTree.png)
+![LCRS Tree](./images/LCRSTree.png)
 
 
 * Sibling cannot have same value
