@@ -1,4 +1,4 @@
-# LCRSTree
+# LCRSTree(Left Children Right Sibling Tree)
 
 Left-Children Right-Sibling(LCRS) Representation of Tree
 (MIT License)
