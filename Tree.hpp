@@ -64,6 +64,16 @@ public:
 		return root;
 	}
 
+	bool IsRoot() {
+		if (pn == root) return true;
+		else return false;
+	}
+
+	bool IsRoot(Node<T> *node) {
+		if (node == root) return true;
+		else return false;
+	}
+
 	Tree *Child() {
 		if (pn->GetChild()) {
 			pn = pn->GetChild(); // Point this node
