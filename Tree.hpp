@@ -93,6 +93,37 @@ public:
 		}
 	}
 
+	Tree *Sibling() {
+		if (pn->GetSibling()) {
+			pn = pn->GetSibling(); // Point this node
+			return this;
+		}
+		else {
+			return NULL;
+		}
+	}
+
+	Node<T> *GetSibling() {
+		if (pn->GetSibling()) {
+			return pn->GetSibling(); // Point this node
+		}
+		else {
+			return NULL;
+		}
+	}
+
+	Tree *Next() {
+		return Sibling();
+	}
+
+	Node<T> *GetNext() {
+		return GetSibling();
+	}
+
+	Node<T> *GetThisNode() {
+		return pn;
+	}
+
 	Node<T> *GetThisNode() {
 		return pn;
 	}
