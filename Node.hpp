@@ -60,7 +60,7 @@ public:
 		this->sibling = sibling;
 	}
 
-	T GetData() {
+	T& GetData() {
 		return data;
 	}
 
